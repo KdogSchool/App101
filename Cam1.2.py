@@ -12,7 +12,7 @@ if not os.path.exists(date):
     os.mkdir(date)   #Create a folder for saving images
 
 #Waiting for the time being_Wait for time seconds before starting shooting
-capture_interval = 0.5 #Image acquisition interval (seconds)
+capture_interval = 5.0 #Image acquisition interval (seconds)
 waiting_time = 0
 print('Recording will be started in {0} seconds'.format(waiting_time))
 time.sleep(waiting_time)
